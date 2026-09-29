@@ -1,0 +1,10 @@
+{
+  "url_api": "http://lcs_system.test/api",
+  "token": "lcs_agente_2026_super_seguro_abc123",
+  "sucursal": "principal",
+  "intervalo_ms": 2000,
+  "timeout_conexion_ms": 5000,
+  "timeout_impresion_ms": 15000,
+  "max_reintentos": 3,
+  "debug": true
+}

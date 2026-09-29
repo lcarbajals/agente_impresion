@@ -1,0 +1,18 @@
+{
+  "name": "agente-impresion-lcs",
+  "version": "1.0.0",
+  "description": "Agente local para impresión de ticketeras desde cola Laravel",
+  "main": "agente.js",
+  "bin": "agente.js",
+  "scripts": {
+    "start": "node agente.js",
+	"build": "pkg . --targets node18-win-x64 --output dist/AgenteImpresionLCS.exe"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+	"dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
